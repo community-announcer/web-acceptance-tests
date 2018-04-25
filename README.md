@@ -2,5 +2,9 @@
 Web Interface User Acceptance Tests
 
 ```
-bundle
+bundle install
+```
+
+```
+bundle exec cucumber
 ```
