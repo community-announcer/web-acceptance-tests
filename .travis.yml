@@ -1,6 +1,11 @@
+dist: trusty
+sudo: required
+addons:
+  chrome: stable
 language: ruby
 rvm:
-  - 2.5
+  - 2.5.0
 before_install:
   - gem install bundle
   - bundle install
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
