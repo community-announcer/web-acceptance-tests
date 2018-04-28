@@ -9,3 +9,5 @@ group :test do
   gem "chromedriver-helper"
   gem 'rspec'
 end
+
+gem "rake", "~> 12.3"
