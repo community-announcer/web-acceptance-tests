@@ -1,3 +1,3 @@
 $home_page ={
-  "search_field" => "'.App-title'"
+  "app_title" => ".App-title"
 }
