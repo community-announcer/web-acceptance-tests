@@ -5,4 +5,4 @@ Feature: Checking React page
   Scenario: Home Page should be React page
     Given page is Community Announcer home page
     When I search app title
-    Then I must see "Welcome to React" text
+    Then I must see "Community Announcer" text

@@ -24,6 +24,6 @@ Capybara.javascript_driver = :headless_chrome
 Capybara.default_selector = :css
 Capybara.default_max_wait_time = 30
 
-Capybara.app_host = 'https://community-announcer.github.io/web-interface'
+Capybara.app_host = 'https://www.community-announcer.com'
 
 World(Capybara::DSL)

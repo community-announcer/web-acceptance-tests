@@ -1,3 +1,3 @@
 $home_page ={
-  "app_title" => ".App-title"
+  "app_title" => "#brand-text"
 }
